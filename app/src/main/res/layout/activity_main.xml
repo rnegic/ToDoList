@@ -24,10 +24,23 @@
 
     <Button
         android:id="@+id/btnAddToDo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="108dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="74dp"
         android:text="Add Task"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/etToDoTitle"
+        app:layout_constraintTop_toTopOf="@+id/btnDeleteDoneTodos" />
+
+    <Button
+        android:id="@+id/btnDeleteDoneTodos"
+        android:layout_width="107dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="72dp"
+        android:text="Delete all"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toEndOf="@+id/etToDoTitle" />
 </androidx.constraintlayout.widget.ConstraintLayout>
